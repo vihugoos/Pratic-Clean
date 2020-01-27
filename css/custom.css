@@ -1,0 +1,445 @@
+/*========== HEIGTH 100% ==========*/
+html, body {
+    height: 100%;
+}
+
+.bloco {
+    padding-top: 40px;
+}
+
+.tela-inteira {
+    min-height: 100%;
+}
+
+
+
+
+/*========== CUSTOMIZAÇÕES ==========*/
+nav.nav-extended .nav-wrapper {
+    min-height: 70px;
+}
+
+.navbar-fixed {
+    position: absolute;
+    height: 70px;
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 70px;
+  line-height: 70px;
+}
+
+.sidenav {
+    background: url(../img/textura2.png);
+}
+
+.sidenav li>a {
+    color: #fff;
+    font-weight: 100;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.tabs {
+    background-color: #222;
+}
+
+.tabs .tab a {
+    color: #fff;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #2dc7d0;
+}
+
+.tabs .indicator {
+    background-color: #2dc7d0;
+}
+
+
+
+/*========== COLORS ==========*/
+.blue-logo {
+    background-color: #2dc7d0;
+}
+
+
+
+
+
+
+
+/*========== MENU ==========*/
+.navbar {
+    background-color: transparent;
+    transition: background 0.5s linear; 
+}
+
+.navbar ul a:hover {
+    background-color: transparent;
+    color: #2dc7d0;
+}
+
+.navmenucolor {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background 0.5s linear;
+}
+
+.sidenav li>a {
+    padding-top: 25%;
+}
+
+
+
+/*========== LOGO ==========*/
+.logo_text {
+    font-size: 0;
+    margin: 0
+}
+
+.logo_img {
+    width: 55px;
+    margin-top: 10px;
+}
+
+
+
+/*========== LISTA MENU ==========*/
+.lista {
+    margin-top: 0;
+}
+
+
+
+/*========== HOME ==========*/
+.home {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: mudarbg 20s infinite;
+}
+
+.banner h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.banner .btn-home {
+    margin-bottom: 40px;
+}
+
+.blocox {
+    padding-top: 94px;
+}
+
+
+/*========== HOME ANIMATION ==========*/
+@keyframes mudarbg {
+    40% {
+        background-image: url(../img/bg2.jpg);
+    }
+
+    80% {
+        background-image: url(../img/bg3.jpg);
+    }
+
+    100% {
+        background-image: url(../img/bg.jpg);
+    }
+} 
+
+
+
+/*========== TITULO E PARAGRAFO ==========*/
+.titulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.titulo::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 1px solid #2dc7d0;
+    margin: 15px auto;
+}
+
+.paragrafo {
+    line-height: 1.8rem;
+}
+
+
+
+/*========== SOBRE ==========*/
+.sobre {
+    background-image: url(../img/textura1.png);
+}
+
+.sobre p {
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+.sobre .missao-visao-valores {
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.sobre .missao-visao-valores .icon {
+    color: #fff;
+}
+
+.sobre .missao-visao-valores h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sobre .missao-visao-valores p {
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+/*========== SERVIÇOS ==========*/
+.servicos {
+    background-image: url(../img/textura2.png);
+}
+
+.espacamento {
+    margin-bottom: 40px;
+}
+
+.card-servico {
+    min-height: 460px;
+}
+
+.justificar-servico {
+    text-align: justify;
+}
+
+
+/*========== SUSTENTABILIDADE ==========*/
+.container-sustentabilidade {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.sustentabilidade h4 {
+    font-weight: 800;
+}
+
+
+
+/*========== CONTATO ==========*/
+.contato {
+    background-image: url(../img/textura1.png);
+
+}
+
+.contato h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.contato .mapa {
+    min-height: 520px;
+} 
+
+.contato .mapa iframe {
+    width: 100%;
+    min-height: 520px;
+    border: none;
+}
+
+.contato .informacoes {
+    background-image: url(../img/textura2.png);
+    min-height: 520px;
+    padding: 30px;
+}
+
+.contato .formulario {
+    min-height: 520px;
+    padding: 30px;
+}
+
+
+
+/*========== DEPOIMENTOS ==========*/
+.depoimentos .titulo::after {
+    border-color: #fff;
+}
+
+.depoimentos img {
+    width: 100px;
+}
+
+.depoimentos h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.espacamento-depoimento {
+    margin-bottom: 20px;
+}
+
+
+
+/*========== RODAPÉ ==========*/
+.rodape {
+    background-image: url(../img/rodape2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    
+}
+
+
+
+
+
+
+
+/*========== MEDIA ==========*/
+
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        width: 90%;
+    }
+
+    #table-horario {
+        margin-left: 6%;
+    }
+    
+    .modal {
+        max-height: 80%;
+        width: 90%;
+    }
+
+    #table-horario {
+        margin-left: 8%;
+    }
+
+    .card-image-horizontal {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+    
+    .container {
+        width: 96%;
+    }
+    
+    .rodape .row p::after {
+        content: "Todos os direitos reservados." 
+    }
+}
+
+
+@media only screen and (min-width: 650px) {
+    
+    .card-servico {
+        min-height: 467px;
+    }
+}
+
+
+@media only screen and (width: 667px) {
+    .container {
+        width: 85%;
+    }
+}
+
+
+@media only screen and (width: 768px) {
+    .banner {
+        padding-top: 15%;
+    }
+
+    .banner h2 {
+        font-size: 4.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+    
+    .card-servico {
+        min-height: 510px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) {
+    
+    .container {
+        width: 97%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    
+    .banner {
+        padding-top: 15%;
+    }
+
+    .banner h2 {
+        font-size: 5rem;
+    }
+
+    .servicos .container {
+        width: 90%;
+    }
+
+   .carousel {
+        margin-top: 30px;
+   }
+
+   .card-servico {
+        min-height: 487px;
+   }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .banner {
+        padding-top: 5rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .carousel {
+        margin-top: 0;
+   }
+}
+
+
+@media only screen and (min-width: 1350px) {
+    
+    .card-servico {
+        min-height: 460px;
+   }
+}
+
+
+
