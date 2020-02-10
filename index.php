@@ -751,7 +751,7 @@
     <footer class="rodape">
         <div class="row container center">
             <img src="img/logopraticclean.png" class="logo_img" alt="Logo">
-            <p class="light white-text"> © Pratic Clean 2019. &nbsp;</p>
+            <p class="light white-text"> © Pratic Clean 2020. &nbsp;</p>
         </div>
     </footer>    
     
