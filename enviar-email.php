@@ -17,7 +17,7 @@ $corpo .= "Telefone: " . $phone . " <br>";
 $corpo .= "Email: " . $email . " <br><br>";
 $corpo .= "Mensagem: " . $message . " <br>";
 
-// Email que receberá a mensagem (Não se esqueça de substituir)
+// Email que receberá a mensagem 
 $email_to = 'victorhugoos@live.com';
 
 // Enviando email
